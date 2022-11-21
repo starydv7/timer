@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import Styles from "./Time.module.css";
+ import Styles from "./Time.module.css";
 
 const GoogleTimer = () => {
   const [micro, setMicro] = useState(0);
