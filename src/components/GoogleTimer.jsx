@@ -3,6 +3,7 @@ import { useEffect } from "react";
  import Styles from "./Time.module.css";
 
 const GoogleTimer = () => {
+    const [state, setState] = useState(false);
   const [micro, setMicro] = useState(0);
   const [second, setSecond] = useState(0);
   const [minute, setMinute] = useState(0);
@@ -24,11 +25,20 @@ const GoogleTimer = () => {
     }, 10);
     return () => clearInterval(timer);
   });
+    // const handleStop = () => {
+    //     setHour(0);
+    //     setMicro(0);
+    //     setMinute(0);
+    //     setMicro(0);
+    //     setState(false);
+    // }
   return (
-    <div className={Styles.time}>
+      <div className={Styles.time}>
+          { }
       <h2 style={{ color: "green" }}>
         Hour:{hour}:Minute:{minute}:Seconds:{second}:{micro}
-      </h2>
+          </h2>
+         {/* <button onClick={handleStop}>Stop</button> */}
     </div>
   );
 };
