@@ -3,7 +3,7 @@ import { useEffect } from "react";
  import Styles from "./Time.module.css";
 
 const GoogleTimer = () => {
-    const [state, setState] = useState(false);
+    // const [state, setState] = useState(false);
   const [micro, setMicro] = useState(0);
   const [second, setSecond] = useState(0);
   const [minute, setMinute] = useState(0);
