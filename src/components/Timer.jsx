@@ -18,7 +18,7 @@ const Timer = () => {
         if(state===true){
             let val= setInterval(()=>{
                 setTimer(()=>timer+1)
-            },1000)
+            },100)
 return ()=>clearInterval(val)
         }
     })
