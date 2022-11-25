@@ -8,6 +8,7 @@ const Counter = () => {
     { service: "react", price: 5 },
     { service: "js", price: 6 },
     { service: "redux", price: 1 },
+    { service: "redux", price: 10 },
   ]);
   let totalPrice = 0;
   data.forEach((item) => {
