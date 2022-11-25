@@ -14,8 +14,6 @@ const Counter = () => {
     totalPrice+= item.price;
   });
   console.log("Total:", totalPrice);
-  
-  
   return (
     <>
       {totalPrice};
@@ -23,7 +21,6 @@ const Counter = () => {
       <button onClick={() => setCounter(count + 1)}> Increment by 1 </button>
       &nbsp;&nbsp;
       <button onClick={() => setCounter(count - 1)}> Decrement by 1 </button>
-
     </>
   );
 };
