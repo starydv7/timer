@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 const Counter = () => {
   const [count, setCounter] = useState(0);
   const [data, setData] = useState([
-    { service: "wordPress", price: 600 },
-    { service: "html", price: 7600 },
-    { service: "react", price: 5600 },
-    { service: "js", price: 6004 },
-    { service: "redux", price: 1600 },
+    { service: "wordPress", price: 6 },
+    { service: "html", price: 7 },
+    { service: "react", price: 5 },
+    { service: "js", price: 6 },
+    { service: "redux", price: 1 },
   ]);
   let totalPrice = 0;
   data.forEach((item) => {
