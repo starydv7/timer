@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
 
+const handleColor = () => {
+    setColor("");
+}
 const Color = () => {
   return (
-    <div>Color</div>
+      <div>
+          <button onClick={handleColor}>Change Color</button>
+    </div>
   )
 }
 
